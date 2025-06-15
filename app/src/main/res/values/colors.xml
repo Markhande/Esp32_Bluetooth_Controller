@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Colors -->
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_dark_color">#1976D2</color>
+    <color name="primary_light_color">#BBDEFB</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary_color">#FF5722</color>
+    <color name="secondary_dark_color">#D84315</color>
+    <color name="secondary_light_color">#FFCCBC</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_color">#4CAF50</color>
+    <color name="accent_dark_color">#388E3C</color>
+    <color name="accent_light_color">#C8E6C9</color>
+
+    <!-- Background Colors -->
+    <color name="background_color">#F5F5F5</color>
+    <color name="surface_color">#FFFFFF</color>
+    <color name="card_background">#FAFAFA</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_disabled">#BDBDBD</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="status_connected">#4CAF50</color>
+    <color name="status_disconnected">#F44336</color>
+    <color name="status_connecting">#FF9800</color>
+    <color name="status_error">#F44336</color>
+
+    <!-- Utility Colors -->
+    <color name="divider_color">#E0E0E0</color>
+    <color name="shadow_color">#1A000000</color>
+    <color name="overlay_color">#80000000</color>
+
+    <!-- Button Colors -->
+    <color name="button_enabled">#2196F3</color>
+    <color name="button_disabled">#BDBDBD</color>
+    <color name="button_pressed">#1976D2</color>
+
+    <!-- Input Field Colors -->
+    <color name="input_background">#F8F9FA</color>
+    <color name="input_border">#E1E5E9</color>
+    <color name="input_focused">#2196F3</color>
+
+    <!-- Received Data Colors -->
+    <color name="received_data_bg">#F8F9FA</color>
+    <color name="received_data_border">#E1E5E9</color>
+    <color name="received_data_text">#495057</color>
+</resources>
