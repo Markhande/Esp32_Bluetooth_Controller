@@ -334,14 +334,16 @@ class MainActivity : AppCompatActivity() {
         isConnected = connected
 
         if (connected) {
-            statusIndicator.setBackgroundColor(ContextCompat.getColor(this, android.R.color.holo_green_light))
+//            statusIndicator.setBackgroundColor(ContextCompat.getColor(this, android.R.color.holo_green_light))
+            statusIndicator.setBackgroundResource(R.drawable.status_indicator_connected)
             statusText.text = if (message.isEmpty()) "Connected" else message
             connectButton.isEnabled = false
             disconnectButton.isEnabled = true
             sendButton.isEnabled = true
             deviceSpinner.isEnabled = false
         } else {
-            statusIndicator.setBackgroundColor(ContextCompat.getColor(this, android.R.color.holo_red_light))
+//            statusIndicator.setBackgroundColor(ContextCompat.getColor(this, android.R.color.holo_red_light))
+            statusIndicator.setBackgroundResource(R.drawable.status_indicator)
             statusText.text = if (message.isEmpty()) "Disconnected" else message
             connectButton.isEnabled = true
             disconnectButton.isEnabled = false
